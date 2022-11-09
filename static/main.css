@@ -1,0 +1,113 @@
+body {
+  background-color: #fafafa;
+  font-family: "Nunito", sans-serif;
+  padding-top: 50px;
+}
+
+a,
+p {
+  color: #4b5156;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.header-bar {
+  background: linear-gradient(90deg, #17183b 0%, #17183b 43%, #17183b 100%);
+  border-radius: 5px 5px 0 0;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header-bar a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.header-bar h3 {
+  margin: 0;
+}
+
+.incomplete-tasks {
+  margin: 0;
+}
+
+.search-form {
+  display: flex;
+}
+
+.task-complete-icon {
+  background-color: #69c069;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.task-incomplete-icon {
+  background-color: #dadada;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.task-title {
+  display: flex;
+}
+
+.task-title a {
+  color: #4b5156;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.task-wrapper {
+  align-items: center;
+  background-color: #ffffff;
+  border-top: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#add-link {
+  font-size: 2em;
+  padding: 0.25em;
+  line-height: 0.5em;
+}
+
+#search-add-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+input[type="text"] input[type="password"] label {
+  padding-top: 10px !important;
+  display: block;
+}
+
+textarea {
+  border: 1px solid #17183b;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+}
+
+.delete-link:hover {
+  color: red;
+}
+.main-content {
+  background: #dedede;
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: 0 2px 12px 4px #aaa;
+}
